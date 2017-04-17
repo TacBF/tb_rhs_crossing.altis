@@ -1,0 +1,12 @@
+#define TB_loadingScreen_imagePath "tb_loadingScreen.jpg"
+//#define TB_loadingScreen_imagePath "\a3\ui_f\data\Logos\arma3_expansion_ca.paa"
+onLoadName="Crossing";
+author="Leon (TacBF Team)";
+onLoadMission="Attack and Defend [M-40]. Sea crossing, hilly coastline, heavy fog. RU (attacking) boats, APCs, Planes. No FOs, No MWs. -vs- Jordan (defending) light vehicles. 1 Pre-placed FO.";
+
+#include "tb_description.sqh"
+#include "tb_settings.hpp"
+#include "tb_objectReplacements.hpp"
+#include "tb_magazineLimitations.hpp"
+
+#include "tb_mountedWeapons.hpp"
